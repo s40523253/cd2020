@@ -145,7 +145,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li><a href='week1~5.html'>week1~5</a><li><a href='week6~9.html'>week6~9</a><li><a href='week10~14.html'>week10~14</a><li><a href='week15~18.html'>week15~18</a><li><a href='W12-W18 assesment.html'>W12-W18 assesment</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li><a href='week1~5.html'>week1~5</a><li><a href='week6~9.html'>week6~9</a><li><a href='week10~14.html'>week10~14</a><li><a href='week15~18.html'>week15~18</a><li><a href='W12-W15 assesment.html'>W12-W15 assesment</a></li>
                       </ul>
                 </nav>
               </div>
@@ -156,10 +156,41 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">week10~14 << <a href='week10~14.html'>Previous</a> <a href='W12-W18 assesment.html'>Next</a> >> W12-W18 assesment<br /><h1>week15~18</h1>
+    <div id="tipue_search_content">week10~14 << <a href='week10~14.html'>Previous</a> <a href='W12-W15 assesment.html'>Next</a> >> W12-W15 assesment<br /><h1>week15~18</h1>
 <h4><strong><span style="color: #0000ff;">week15</span>:</strong></h4>
-<p><span>分組倉儲:<a href="https://github.com/mdecourse/cdbw15-1">https://github.com/mdecourse/cdbw15-1</a></span></p>
-<p>分組網站:<a href="http://mde.tw/cdbw15-1/content/index.html">http://mde.tw/cdbw15-1/content/index.html</a></p><br />week10~14 << <a href='week10~14.html'>Previous</a> <a href='W12-W18 assesment.html'>Next</a> >> W12-W18 assesment</div>
+<p><strong></strong></p>
+<h4><strong>FileZilla 虛擬主機文件共享設定</strong></h4>
+<p>1. 設定putty -&gt; SSH -&gt; X11 輸入localhost:0.0</p>
+<p>2. 設定的ip為虛擬主機裡面自己的ip</p>
+<p>3. 按save -&gt; open -&gt; 輸入密碼kmol2020</p>
+<p>4. 開啟Filezilla</p>
+<p>5. 新增一個自己ip的站台</p>
+<p>6. 設定協定SFTP -&gt; 主機 127.0.0.1 -&gt; 連接埠 22 -&gt; 使用者 kmol2020</p>
+<p>7. 輸入密碼kmol2020</p>
+<p>8. 設定好即可在此處進行虛擬主機資料的下載、修改、上傳</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/jXQE3zmsXMM" width="560"></iframe></p>
+<p></p>
+<p></p>
+<h4><strong><span style="color: #0000ff;">week16</span>:</strong></h4>
+<h4><span color="#0000ff"><b>ubnutu ipv6</b></span><span><strong>伺服器連線設定</strong></span></h4>
+<p><strong>IPv6 遠端控制設定 :<br/></strong></p>
+<p><span>1. 老師倉儲cd2020下的downloads的w13_ipv6_assignment.txt，i</span><span>pv6遠端控制設定</span></p>
+<p><span> <img alt="" height="305" src="./../images/ipv6-1.png" width="560"/></span></p>
+<p><span>2. 子網路首碼長度輸入64、預設匝道輸入2001:288:6006:17::254</span></p>
+<p><img alt="" height="305" src="./../images/ipv6-2.png" width="560"/></p>
+<p>3. <span>開啟虛擬主機，設定整體系統埠號</span></p>
+<p><img alt="" height="305" src="./../images/ipv6-3.png" width="560"/></p>
+<p>4. <span>啟動Ubuntu輸入密碼kmol2020 -&gt; 開啟LXTermial -&gt; 進入cd2020pj1</span></p>
+<p>5. <span>git pull檢查更新 -&gt; cd docs/cmsimde</span></p>
+<p>6. <span>輸入vi wsgi.py，將host改為個人主機IP</span></p>
+<p>7. 設定<span>putty -&gt; SSH -&gt; X11 輸入localhost:0.0</span></p>
+<p><span><img alt="" height="305" src="./../images/ipv6-4.png" width="560"/></span></p>
+<p>8. 按<span>save -&gt; </span><span>open -&gt; </span>在<span>putty</span>輸入密碼<span>kmol2020</span></p>
+<p>9. <span>開啟</span><span>Xming -&gt; </span><span>輸入</span><span>xterm&amp;</span></p>
+<p>10. <span>進入tmp/cd2020pj1/docs/cmsimde -&gt; 輸入python3 wsgi.py</span></p>
+<p>11. 用瀏覽器<span>輸入網址</span><span>https://[2001:288:6004:17:2020:5253]:17443</span></p>
+<p>12. <span>關閉</span><span>proxy後重新整理即可連上</span></p>
+<br />week10~14 << <a href='week10~14.html'>Previous</a> <a href='W12-W15 assesment.html'>Next</a> >> W12-W15 assesment</div>
         
     <!-- footer -->
       <div class="container">
